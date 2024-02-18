@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "role": "admin"
+    },
+    {
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "role": "admin"
+    },
+    {
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "role": "user"
+    },
+    {
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "role": "user"
+    }
+  ],
+  "activeUsers": [
+    {
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "role": "admin"
+    },
+    {
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "role": "user"
+    },
+    {
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "role": "user"
+    }
+  ],
+  "activities": [
+    {
+      "user": "Jane Smith",
+      "action": "Created new project",
+      "timestamp": "2024-02-03T14:30:00Z"
+    },
+    {
+      "user": "Mark Johnson",
+      "action": "Updated user profile",
+      "timestamp": "2024-02-03T15:45:00Z"
+    },
+    {
+      "user": "Emily Brown",
+      "action": "Generated monthly report",
+      "timestamp": "2024-02-04T09:15:00Z"
+    }
+  ]
+}
